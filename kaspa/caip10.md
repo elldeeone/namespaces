@@ -54,10 +54,18 @@ Kaspa defines the following address versions:
 | `1` | ECDSA public key | 33 bytes | 63 characters |
 | `8` | Script hash | 32 bytes | 61 characters |
 
-The preliminary regular expression for an address payload is:
+The entire address payload must match either of the following preliminary regular expressions.
+
+For Schnorr public-key and script-hash addresses (61 characters):
 
 ```regex
-^(?:[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{61}|[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{63})$
+^[023456789acdefghjklmnpqrstuvwxyz]{61}$
+```
+
+For ECDSA public-key addresses (63 characters):
+
+```regex
+^[023456789acdefghjklmnpqrstuvwxyz]{63}$
 ```
 
 A regular-expression match is necessary but not sufficient because the decoded version, body length, and checksum must also be valid.
