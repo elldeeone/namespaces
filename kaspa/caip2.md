@@ -41,6 +41,7 @@ Local `simnet` and `devnet` names are not included because they do not identify 
 A future public network can be added with a distinct reference and genesis block.
 Kaspa has no central authority that assigns public network identifiers.
 Future references are registered through updates to this CASA profile and should be supported by a distinct genesis block, implementation evidence, and public Kaspa community review.
+The change controllers for this profile are [Luke Dunshea (@elldeeone)][Luke Dunshea] and representatives of the [kaspanet GitHub organization][].
 
 The registered genesis hashes are:
 
@@ -117,6 +118,8 @@ kaspa:testnet-10
 [Kaspa Integration Guide]: https://docs.kaspa.org/integrate/getting-started
 [Kaspa Node Connectivity]: https://docs.kaspa.org/references
 [Rusty Kaspa]: https://github.com/kaspanet/rusty-kaspa
+[Luke Dunshea]: https://github.com/elldeeone
+[kaspanet GitHub organization]: https://github.com/kaspanet
 [BIP-122 Namespace]: https://namespaces.chainagnostic.org/bip122/README
 [CAIP-2]: https://chainagnostic.org/CAIPs/caip-2
 

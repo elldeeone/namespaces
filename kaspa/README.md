@@ -32,6 +32,7 @@ Protocol changes are developed openly and take effect through adoption by indepe
 The resources referenced in this profile document the network and its implementation; they are not governing authorities.
 
 This namespace profile documents identifiers already used across the Kaspa ecosystem for interoperability.
+The change controllers for this namespace profile and its CAIP profiles are [Luke Dunshea (@elldeeone)][Luke Dunshea] and representatives of the [kaspanet GitHub organization][].
 Changes to this profile are reviewed through the CASA namespace process and should be informed by public Kaspa community discussion and implementation evidence.
 
 ## References
@@ -47,6 +48,8 @@ Changes to this profile are reviewed through the CASA namespace process and shou
 [Kaspa Docs]: https://docs.kaspa.org/
 [Rusty Kaspa]: https://github.com/kaspanet/rusty-kaspa
 [Kaspa Community Discussion]: https://kas-smiths.org/t/kaspa-x402-pay-per-request-kas-payments-for-apis-and-ai-agents/15
+[Luke Dunshea]: https://github.com/elldeeone
+[kaspanet GitHub organization]: https://github.com/kaspanet
 [BIP-122]: https://github.com/bitcoin/bips/blob/master/bip-0122.mediawiki
 [BIP-122 Namespace]: https://namespaces.chainagnostic.org/bip122/README
 
